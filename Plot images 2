@@ -1,0 +1,5 @@
+# Draw the image in grayscale
+plt.imshow(im, cmap='gray')
+
+# Render the image
+plt.show()
