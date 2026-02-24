@@ -1,0 +1,6 @@
+# Import ImageIO and PyPlot 
+import imageio
+import matplotlib.pyplot as plt
+
+# Read in "chest-220.dcm"
+im = imageio.imread('chest-220.dcm')
