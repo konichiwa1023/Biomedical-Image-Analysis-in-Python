@@ -1,0 +1,13 @@
+# Import PyPlot
+import matplotlib.pyplot as plt
+
+# Initialize figure and axes grid
+fig, axes = plt.subplots(nrows=2, ncols=1)
+
+# Draw an image on each subplot
+axes[0].imshow(im1, cmap='gray')
+axes[1].imshow(im2, cmap='gray')
+# Remove ticks/labels for both subplots
+axes[0].axis('off')
+axes[1].axis('off')
+plt.show()
