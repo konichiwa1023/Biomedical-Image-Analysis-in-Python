@@ -1,0 +1,5 @@
+# Replace ____ with the appropriate function call, such as:
+plt.imshow(im, cmap='gray', vmin=-200, vmax=200)
+
+# Render the image
+plt.show()
