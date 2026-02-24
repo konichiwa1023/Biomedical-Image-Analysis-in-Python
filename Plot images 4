@@ -1,0 +1,5 @@
+# Remove axis ticks and labels
+plt.axis('off')
+
+# Render the image
+plt.show()
