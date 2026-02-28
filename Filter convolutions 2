@@ -1,0 +1,7 @@
+# Set filter weights
+weights = [[0.11, 0.11, 0.11],
+           [0.11, 0.11, 0.11], 
+           [0.11, 0.11, 0.11]]
+
+# Convolve the image with the filter
+im_filt = ndi.convolve(im, weights)
