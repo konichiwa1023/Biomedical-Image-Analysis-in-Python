@@ -1,0 +1,10 @@
+# Smooth intensity values
+im_filt = ndi.median_filter(im, size=3)
+
+# Select high-intensity pixels
+mask_start = np.where(im_filt > 60, 1, 0)
+mask = ndi.binary_closing(mask_start)
+
+# Label the objects in "mask"
+labels, nlabels = ndi.label(mask)
+print('Num. Labels:', nlabels)
