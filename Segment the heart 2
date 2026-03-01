@@ -1,0 +1,6 @@
+# Create a `labels` overlay
+overlay = np.where(labels > 0, labels, np.nan)
+
+# Use imshow to plot the overlay
+plt.imshow(overlay, cmap='rainbow', alpha=0.75)
+format_and_render_plot()
