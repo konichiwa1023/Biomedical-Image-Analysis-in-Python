@@ -1,0 +1,4 @@
+# Create histograms for selected pixels
+hist1 = ndi.histogram(vol, min=0, max=255, bins=256)
+hist2 = ndi.histogram(vol, 0, 255, 256, labels=labels)
+hist3 = ndi.histogram(vol, 0, 255, 256, labels=labels, index=1)
