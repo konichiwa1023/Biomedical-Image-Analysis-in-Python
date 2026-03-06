@@ -1,0 +1,8 @@
+# Calculate image difference
+err = im1 - im2
+
+# Plot the difference
+plt.imshow(err, cmap='seismic', vmin=-200, vmax=200)
+plt.axis('off')
+
+format_and_render_plot()
