@@ -1,0 +1,6 @@
+# Import independent two-sample t-test
+from scipy.stats import ttest_ind
+
+# Select data from "alzheimers" and "typical" groups
+brain_alz = df.loc[df.alzheimers == True, 'brain_vol']
+brain_typ = df.loc[df.alzheimers == False, 'brain_vol']
