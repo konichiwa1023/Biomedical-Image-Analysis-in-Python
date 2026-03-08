@@ -1,0 +1,2 @@
+# Import independent two-sample t-test
+from scipy.stats import ttest_ind
